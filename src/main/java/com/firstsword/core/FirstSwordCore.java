@@ -1,4 +1,4 @@
-package com.chufeng.core;
+package com.firstsword.core;
 
 import net.minecraft.world.item.Item;
 
@@ -8,7 +8,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import com.chufeng.SwordCores;
+import com.firstsword.SwordCores;
 
 /**
  * 更强的初锋。
@@ -16,10 +16,10 @@ import com.chufeng.SwordCores;
  * 主模组本身不改数值，强化全部由这里的「核心」词条提供——
  * 不装这个模组，初锋的平衡和 1.6.0 完全一致。
  */
-@Mod(ChuFengCore.MODID)
-public class ChuFengCore
+@Mod(FirstSwordCore.MODID)
+public class FirstSwordCore
 {
-    public static final String MODID = "chufeng_core";
+    public static final String MODID = "firstsword_core";
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
 
@@ -43,7 +43,7 @@ public class ChuFengCore
             "qinghuo_core",
             props -> new CoreItem(props.stacksTo(16), QinghuoCore.INSTANCE));
 
-    public ChuFengCore(IEventBus modEventBus, ModContainer modContainer)
+    public FirstSwordCore(IEventBus modEventBus, ModContainer modContainer)
     {
         ITEMS.register(modEventBus);
 

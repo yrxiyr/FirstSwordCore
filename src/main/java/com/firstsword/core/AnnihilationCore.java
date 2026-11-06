@@ -1,4 +1,4 @@
-package com.chufeng.core;
+package com.firstsword.core;
 
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
@@ -9,7 +9,7 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 
-import com.chufeng.SwordCore;
+import com.firstsword.SwordCore;
 
 /**
  * 毁杀核心：攻击力 +4，瞬闪斩伤害 +6（路径和落点都加）。
@@ -22,7 +22,7 @@ public final class AnnihilationCore implements SwordCore
     public static final AnnihilationCore INSTANCE = new AnnihilationCore();
 
     public static final ResourceLocation ID =
-            ResourceLocation.fromNamespaceAndPath(ChuFengCore.MODID, "annihilation_core");
+            ResourceLocation.fromNamespaceAndPath(FirstSwordCore.MODID, "annihilation_core");
 
     /** 攻击力加成 */
     public static final float DAMAGE_BONUS = 4.0F;
@@ -32,7 +32,7 @@ public final class AnnihilationCore implements SwordCore
 
     /** 修饰符 id，必须唯一，否则会和别的词条互相覆盖 */
     private static final ResourceLocation MODIFIER_ID =
-            ResourceLocation.fromNamespaceAndPath(ChuFengCore.MODID, "core.annihilation.damage");
+            ResourceLocation.fromNamespaceAndPath(FirstSwordCore.MODID, "core.annihilation.damage");
 
     @Override
     public ResourceLocation id()
@@ -43,13 +43,13 @@ public final class AnnihilationCore implements SwordCore
     @Override
     public Component displayName()
     {
-        return Component.translatable("core.chufeng_core.annihilation");
+        return Component.translatable("core.firstsword_core.annihilation");
     }
 
     @Override
     public Component description()
     {
-        return Component.translatable("core.chufeng_core.annihilation.desc");
+        return Component.translatable("core.firstsword_core.annihilation.desc");
     }
 
     @Override

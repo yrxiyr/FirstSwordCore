@@ -1,4 +1,4 @@
-package com.chufeng.core;
+package com.firstsword.core;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
@@ -21,7 +21,7 @@ import net.neoforged.neoforge.event.entity.living.LivingDeathEvent;
  *
  * 技能伤害走的是 playerAttack，所以雷、流星、瞬闪斩打死的怪同样参与判定。
  */
-@EventBusSubscriber(modid = ChuFengCore.MODID)
+@EventBusSubscriber(modid = FirstSwordCore.MODID)
 public final class CoreDrops
 {
     /** 罪：1% */
@@ -30,8 +30,8 @@ public final class CoreDrops
     /** 汇聚核心：1% */
     private static final float CONVERGENCE_CHANCE = 0.01F;
 
-    private static final String SIN_KEY = "chufeng_core:sin_dropped";
-    private static final String CONVERGENCE_KEY = "chufeng_core:convergence_dropped";
+    private static final String SIN_KEY = "firstsword_core:sin_dropped";
+    private static final String CONVERGENCE_KEY = "firstsword_core:convergence_dropped";
 
     @SubscribeEvent
     public static void onDeath(LivingDeathEvent event)
@@ -62,10 +62,10 @@ public final class CoreDrops
         CompoundTag data = player.getPersistentData();
 
         roll(player, level, entity, data, SIN_KEY, SIN_CHANCE,
-                ChuFengCore.SIN.get(), "message.chufeng_core.drop.sin");
+                FirstSwordCore.SIN.get(), "message.firstsword_core.drop.sin");
 
         roll(player, level, entity, data, CONVERGENCE_KEY, CONVERGENCE_CHANCE,
-                ChuFengCore.METEOR_CORE.get(), "message.chufeng_core.drop.convergence");
+                FirstSwordCore.METEOR_CORE.get(), "message.firstsword_core.drop.convergence");
     }
 
     /** 掷一次概率；中了就标记成「已经给过」，以后不再掉 */

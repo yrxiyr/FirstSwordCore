@@ -1,4 +1,4 @@
-package com.chufeng.core;
+package com.firstsword.core;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -21,7 +21,7 @@ import net.neoforged.neoforge.event.tick.ServerTickEvent;
  * 没有做成自定义 MobEffect，而是自己记一张表——伤害要记在玩家头上，
  * 这样被打死的怪仍然会掉「罪」，用原版效果做不到这一点。
  */
-@EventBusSubscriber(modid = ChuFengCore.MODID)
+@EventBusSubscriber(modid = FirstSwordCore.MODID)
 public final class SinBurn
 {
     /** 持续时间（tick），7 秒 */

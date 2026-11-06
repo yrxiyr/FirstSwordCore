@@ -1,0 +1,23 @@
+{
+  "item.firstsword_core.sin": "Sin",
+  "item.firstsword_core.meteor_core": "Convergence Core",
+  "item.firstsword_core.annihilation_core": "Annihilation Core",
+  "item.firstsword_core.qinghuo_core": "Qinghuo Core",
+
+  "core.firstsword_core.meteor": "Convergence Core",
+  "core.firstsword_core.meteor.desc": "Meteor shower cooldown -10s, rainbow lightning damage +6",
+
+  "core.firstsword_core.annihilation": "Annihilation Core",
+  "core.firstsword_core.annihilation.desc": "Attack damage +4, blink strike damage +6",
+
+  "core.firstsword_core.qinghuo": "Qinghuo Core",
+  "core.firstsword_core.qinghuo.desc": "Meteor-hit mobs burn for 7s (8 damage/s); grants you 12s fire resistance and absorption",
+
+  "tooltip.firstsword_core.core.howto": "Hold in your main hand with the First Sword in the offhand, then right-click",
+
+  "message.firstsword_core.need_sword": "Hold the First Sword in your other hand",
+  "message.firstsword_core.applied": "Core applied: %s",
+  "message.firstsword_core.already": "This sword already has that core",
+  "message.firstsword_core.drop.sin": "Sin condenses - obtained \"Sin\"",
+  "message.firstsword_core.drop.convergence": "The First Sword condenses - obtained \"Convergence Core\""
+}

@@ -1,9 +1,9 @@
-package com.chufeng.core;
+package com.firstsword.core;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 
-import com.chufeng.SwordCore;
+import com.firstsword.SwordCore;
 
 /**
  * 汇聚核心：流星群冷却 -10 秒，彩虹雷每道伤害 +6。
@@ -15,7 +15,7 @@ public final class MeteorCore implements SwordCore
     public static final MeteorCore INSTANCE = new MeteorCore();
 
     public static final ResourceLocation ID =
-            ResourceLocation.fromNamespaceAndPath(ChuFengCore.MODID, "meteor_core");
+            ResourceLocation.fromNamespaceAndPath(FirstSwordCore.MODID, "meteor_core");
 
     /** 流星群冷却减免（tick），10 秒 */
     public static final int COOLDOWN_REDUCTION = 200;
@@ -32,13 +32,13 @@ public final class MeteorCore implements SwordCore
     @Override
     public Component displayName()
     {
-        return Component.translatable("core.chufeng_core.meteor");
+        return Component.translatable("core.firstsword_core.meteor");
     }
 
     @Override
     public Component description()
     {
-        return Component.translatable("core.chufeng_core.meteor.desc");
+        return Component.translatable("core.firstsword_core.meteor.desc");
     }
 
     @Override

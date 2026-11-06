@@ -6,7 +6,7 @@
 
 - Minecraft **1.21.1**
 - NeoForge **21.1.x**
-- 必需：**初锋 `chufeng` 1.7.0+**
+- 必需：**初锋 `firstsword` 1.7.0+**
 
 ## 怎么用
 
@@ -44,8 +44,8 @@
 
 1. 安装 Minecraft 1.21.1 与 NeoForge 21.1.x
 2. `mods` 文件夹里放**两个** jar：
-   - `chufeng-1.7.0.jar`
-   - `chufeng_core-1.0.0.jar`
+   - `firstsword-1.7.0.jar`
+   - `firstsword_core-1.0.0.jar`
 
 创造模式物品栏 →「材料」页可以直接取到所有物品。
 
@@ -54,7 +54,7 @@
 需要 JDK 21。这个工程依赖主模组的 jar，所以要先构建主模组：
 
 ```bash
-../ChuFeng/gradlew build
+../FirstSword/gradlew build
 ./gradlew build
 ```
 

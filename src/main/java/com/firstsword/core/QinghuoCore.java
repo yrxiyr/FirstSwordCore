@@ -1,4 +1,4 @@
-package com.chufeng.core;
+package com.firstsword.core;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -8,7 +8,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 
-import com.chufeng.SwordCore;
+import com.firstsword.SwordCore;
 
 /**
  * 顷火核心：被流星打中的怪会烧起来（每秒 8 点，7 秒），
@@ -19,7 +19,7 @@ public final class QinghuoCore implements SwordCore
     public static final QinghuoCore INSTANCE = new QinghuoCore();
 
     public static final ResourceLocation ID =
-            ResourceLocation.fromNamespaceAndPath(ChuFengCore.MODID, "qinghuo_core");
+            ResourceLocation.fromNamespaceAndPath(FirstSwordCore.MODID, "qinghuo_core");
 
     /** 抗火 / 伤害吸收的持续时间（tick），12 秒 */
     public static final int BUFF_DURATION = 240;
@@ -36,13 +36,13 @@ public final class QinghuoCore implements SwordCore
     @Override
     public Component displayName()
     {
-        return Component.translatable("core.chufeng_core.qinghuo");
+        return Component.translatable("core.firstsword_core.qinghuo");
     }
 
     @Override
     public Component description()
     {
-        return Component.translatable("core.chufeng_core.qinghuo.desc");
+        return Component.translatable("core.firstsword_core.qinghuo.desc");
     }
 
     @Override

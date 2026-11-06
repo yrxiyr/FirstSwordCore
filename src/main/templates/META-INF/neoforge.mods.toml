@@ -25,9 +25,9 @@ description='''${mod_description}'''
 
 # 必须装在同一个实例里，并且先于本模组加载
 [[dependencies.${mod_id}]]
-    modId="chufeng"
+    modId="firstsword"
     type="required"
     reason="初锋・核心是初锋的附属模组"
-    versionRange="${chufeng_version_range}"
+    versionRange="${firstsword_version_range}"
     ordering="AFTER"
     side="BOTH"

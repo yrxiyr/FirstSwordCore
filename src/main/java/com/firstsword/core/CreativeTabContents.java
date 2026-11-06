@@ -1,4 +1,4 @@
-package com.chufeng.core;
+package com.firstsword.core;
 
 import net.minecraft.world.item.CreativeModeTabs;
 
@@ -12,7 +12,7 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
  * 物品注册了不等于会出现在创造栏里，必须显式往某个标签页里塞。
  * 放在原版「材料」页而不是自建标签页，是为了整合包作者找起来方便。
  */
-@EventBusSubscriber(modid = ChuFengCore.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = FirstSwordCore.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class CreativeTabContents
 {
     @SubscribeEvent
@@ -20,10 +20,10 @@ public class CreativeTabContents
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
-            event.accept(ChuFengCore.SIN.get());
-            event.accept(ChuFengCore.METEOR_CORE.get());
-            event.accept(ChuFengCore.ANNIHILATION_CORE.get());
-            event.accept(ChuFengCore.QINGHUO_CORE.get());
+            event.accept(FirstSwordCore.SIN.get());
+            event.accept(FirstSwordCore.METEOR_CORE.get());
+            event.accept(FirstSwordCore.ANNIHILATION_CORE.get());
+            event.accept(FirstSwordCore.QINGHUO_CORE.get());
         }
     }
 }

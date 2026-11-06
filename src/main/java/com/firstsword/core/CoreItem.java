@@ -1,4 +1,4 @@
-package com.chufeng.core;
+package com.firstsword.core;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 
-import com.chufeng.FirstSwordItem;
-import com.chufeng.SwordCore;
-import com.chufeng.SwordCores;
+import com.firstsword.FirstSwordItem;
+import com.firstsword.SwordCore;
+import com.firstsword.SwordCores;
 
 /**
  * 通用核心物品。
@@ -50,7 +50,7 @@ public class CoreItem extends Item
             if (!level.isClientSide())
             {
                 player.displayClientMessage(
-                        Component.translatable("message.chufeng_core.need_sword"), true);
+                        Component.translatable("message.firstsword_core.need_sword"), true);
             }
 
             return InteractionResultHolder.fail(coreStack);
@@ -69,12 +69,12 @@ public class CoreItem extends Item
                         SoundEvents.ENCHANTMENT_TABLE_USE, SoundSource.PLAYERS, 1.0F, 1.2F);
 
                 player.displayClientMessage(Component.translatable(
-                        "message.chufeng_core.applied", this.core.displayName()), false);
+                        "message.firstsword_core.applied", this.core.displayName()), false);
             }
             else
             {
                 player.displayClientMessage(
-                        Component.translatable("message.chufeng_core.already"), true);
+                        Component.translatable("message.firstsword_core.already"), true);
             }
         }
 
@@ -85,7 +85,7 @@ public class CoreItem extends Item
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag)
     {
         tooltip.add(this.core.description().copy().withStyle(ChatFormatting.GRAY));
-        tooltip.add(Component.translatable("tooltip.chufeng_core.core.howto")
+        tooltip.add(Component.translatable("tooltip.firstsword_core.core.howto")
                 .withStyle(ChatFormatting.DARK_GRAY));
 
         super.appendHoverText(stack, context, tooltip, flag);
