@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="初锋・核心"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neo_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# 必须装在同一个实例里，并且先于本模组加载
+[[dependencies.${mod_id}]]
+    modId="chufeng"
+    type="required"
+    reason="初锋・核心是初锋的附属模组"
+    versionRange="${chufeng_version_range}"
+    ordering="AFTER"
+    side="BOTH"

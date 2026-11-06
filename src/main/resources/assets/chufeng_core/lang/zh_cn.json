@@ -1,0 +1,23 @@
+{
+  "item.chufeng_core.sin": "罪",
+  "item.chufeng_core.meteor_core": "汇聚核心",
+  "item.chufeng_core.annihilation_core": "毁杀核心",
+  "item.chufeng_core.qinghuo_core": "顷火核心",
+
+  "core.chufeng_core.meteor": "汇聚核心",
+  "core.chufeng_core.meteor.desc": "流星群冷却 -10 秒，彩虹雷伤害 +6",
+
+  "core.chufeng_core.annihilation": "毁杀核心",
+  "core.chufeng_core.annihilation.desc": "攻击力 +4，瞬闪斩伤害 +6",
+
+  "core.chufeng_core.qinghuo": "顷火核心",
+  "core.chufeng_core.qinghuo.desc": "流星命中的怪灼烧 7 秒（每秒 8 点），并给予自身 12 秒抗火与伤害吸收",
+
+  "tooltip.chufeng_core.core.howto": "副手持初锋时右键，把词条打到剑上",
+
+  "message.chufeng_core.need_sword": "需要副手拿着初锋",
+  "message.chufeng_core.applied": "已打上词条：%s",
+  "message.chufeng_core.already": "这把剑已经有这个词条了",
+  "message.chufeng_core.drop.sin": "罪孽凝结——获得「罪」",
+  "message.chufeng_core.drop.convergence": "初锋凝聚成形——获得「汇聚核心」"
+}
