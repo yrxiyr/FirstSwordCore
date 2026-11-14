@@ -3,6 +3,12 @@
   "item.firstsword_core.meteor_core": "汇聚核心",
   "item.firstsword_core.annihilation_core": "毁杀核心",
   "item.firstsword_core.qinghuo_core": "顷火核心",
+  "item.firstsword_core.devastation_core": "摧灭核心",
+  "item.firstsword_core.breach_core": "破袭核心",
+  "item.firstsword_core.gravity_core": "牵星核心",
+  "item.firstsword_core.echo_core": "回响核心",
+  "item.firstsword_core.sonata_core": "奏鸣核心",
+  "item.firstsword_core.senra_core": "森罗核心",
 
   "core.firstsword_core.meteor": "汇聚核心",
   "core.firstsword_core.meteor.desc": "流星群冷却 -10 秒，彩虹雷伤害 +6",
@@ -13,11 +19,35 @@
   "core.firstsword_core.qinghuo": "顷火核心",
   "core.firstsword_core.qinghuo.desc": "流星命中的怪灼烧 7 秒（每秒 8 点），并给予自身 12 秒抗火与伤害吸收",
 
+  "core.firstsword_core.devastation": "摧灭核心",
+  "core.firstsword_core.devastation.desc": "流星群追加 5~6 颗中型流星（36 点 / 爆炸半径 3）；法阵范围 ×1.5，小流星数量同步增加",
+
+  "core.firstsword_core.breach": "破袭核心",
+  "core.firstsword_core.breach.desc": "点按（不蓄力）流星键不召唤流星，改为获得 12 秒抗性提升 II 与力量 II，并储存 3 次爆裂斩（12 点伤害 / 3×3 范围）；之后每刀在目标身上炸一次",
+  "core.firstsword_core.gravity": "牵星核心",
+  "core.firstsword_core.gravity.desc": "大流星落地前，落点展开半径 8 格的引力场，把生物拽向圆心并减速 50%；被拽住的目标吃流星伤害 ×1.4",
+
+  "core.firstsword_core.echo": "回响核心",
+  "core.firstsword_core.echo.desc": "瞬闪斩可存 3 次（冷却时长不变）；每命中一个目标回复 2 点生命，单次冲刺最多 6 点",
+
+  "core.firstsword_core.sonata": "奏鸣核心",
+  "core.firstsword_core.sonata.desc": "快速连按「左键 → 右键 → 左键」触发组合技：在瞬闪斩的同时，沿冲刺方向分三波炸开横向彩雷，铺满 15 格长、7 格宽、7 格高的长方体（每波 20 道，原版落雷光柱横放）；瞬闪斩与组合技给予 8 秒速度 II 与急迫 II，组合技额外给予跳跃提升 II 与生命恢复 II",
+
+  "core.firstsword_core.senra": "森罗核心",
+  "core.firstsword_core.senra.desc": "彩虹雷无视方块：在当前高度生成并向下贯穿，站在高处也能劈到下面的怪，下界、洞穴、室内都能落雷；落点半径 ×1.4（30 → 42 格）",
+
   "tooltip.firstsword_core.core.howto": "副手持初锋时右键，把词条打到剑上",
 
   "message.firstsword_core.need_sword": "需要副手拿着初锋",
   "message.firstsword_core.applied": "已打上词条：%s",
   "message.firstsword_core.already": "这把剑已经有这个词条了",
   "message.firstsword_core.drop.sin": "罪孽凝结——获得「罪」",
-  "message.firstsword_core.drop.convergence": "初锋凝聚成形——获得「汇聚核心」"
+  "message.firstsword_core.drop.convergence": "初锋凝聚成形——获得「汇聚核心」",
+  "message.firstsword_core.drop.devastation": "不死图腾的力量凝成「摧灭核心」",
+  "message.firstsword_core.drop.breach": "下界的气息涌入剑身——获得「破袭核心」",
+  "message.firstsword_core.drop.echo": "刀锋回响——获得「回响核心」",
+  "message.firstsword_core.drop.sonata": "终末的回响——获得「奏鸣核心」",
+  "message.firstsword_core.breach.tap": "破袭核心：抗性提升 II · 力量 II（12 秒），爆裂斩 ×3",
+  "message.firstsword_core.breach.cooldown": "破袭核心还在冷却",
+  "message.firstsword_core.breach.charge": "爆裂斩剩余 %s 次"
 }

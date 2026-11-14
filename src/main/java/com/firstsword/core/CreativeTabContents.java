@@ -24,6 +24,12 @@ public class CreativeTabContents
             event.accept(FirstSwordCore.METEOR_CORE.get());
             event.accept(FirstSwordCore.ANNIHILATION_CORE.get());
             event.accept(FirstSwordCore.QINGHUO_CORE.get());
+            event.accept(FirstSwordCore.DEVASTATION_CORE.get());
+            event.accept(FirstSwordCore.BREACH_CORE.get());
+            event.accept(FirstSwordCore.GRAVITY_CORE.get());
+            event.accept(FirstSwordCore.ECHO_CORE.get());
+            event.accept(FirstSwordCore.SONATA_CORE.get());
+            event.accept(FirstSwordCore.SENRA_CORE.get());
         }
     }
 }

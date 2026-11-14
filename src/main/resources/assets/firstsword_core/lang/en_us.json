@@ -3,6 +3,12 @@
   "item.firstsword_core.meteor_core": "Convergence Core",
   "item.firstsword_core.annihilation_core": "Annihilation Core",
   "item.firstsword_core.qinghuo_core": "Qinghuo Core",
+  "item.firstsword_core.devastation_core": "Devastation Core",
+  "item.firstsword_core.breach_core": "Breach Core",
+  "item.firstsword_core.gravity_core": "Gravity Core",
+  "item.firstsword_core.echo_core": "Echo Core",
+  "item.firstsword_core.sonata_core": "Sonata Core",
+  "item.firstsword_core.senra_core": "Senra Core",
 
   "core.firstsword_core.meteor": "Convergence Core",
   "core.firstsword_core.meteor.desc": "Meteor shower cooldown -10s, rainbow lightning damage +6",
@@ -13,11 +19,35 @@
   "core.firstsword_core.qinghuo": "Qinghuo Core",
   "core.firstsword_core.qinghuo.desc": "Meteor-hit mobs burn for 7s (8 damage/s); grants you 12s fire resistance and absorption",
 
+  "core.firstsword_core.devastation": "Devastation Core",
+  "core.firstsword_core.devastation.desc": "Meteor shower adds 5-6 medium meteors (36 damage / radius 3); field radius x1.5 with matching small meteor count",
+
+  "core.firstsword_core.breach": "Breach Core",
+  "core.firstsword_core.breach.desc": "Tapping the meteor key (no charge) summons no meteors; instead grants 12s Resistance II + Strength II and stores 3 blast strikes (12 damage / 3x3 area), each exploding on the target you hit",
+  "core.firstsword_core.gravity": "Gravity Core",
+  "core.firstsword_core.gravity.desc": "Before the big meteor lands, a radius-8 gravity field pulls mobs toward the impact point and slows them 50%; grabbed mobs take x1.4 meteor damage",
+
+  "core.firstsword_core.echo": "Echo Core",
+  "core.firstsword_core.echo.desc": "Blink Strike stores 3 charges (same cooldown); each target hit heals 2 HP, up to 6 per dash",
+
+  "core.firstsword_core.sonata": "Sonata Core",
+  "core.firstsword_core.sonata.desc": "Rapidly press Left -> Right -> Left to trigger a combo: on top of Blink Strike, horizontal rainbow lightning erupts in three waves along your dash, filling a 15x7x7 box (20 bolts per wave, the vanilla lightning pillar laid flat); Blink Strike and the combo grant 8s Speed II + Haste II, and the combo additionally grants Jump Boost II + Regeneration II",
+
+  "core.firstsword_core.senra": "Senra Core",
+  "core.firstsword_core.senra.desc": "Rainbow lightning ignores blocks: it spawns at your current height and pierces downward, so it hits mobs below you and works in the Nether, caves and indoors; radius x1.4 (30 -> 42 blocks)",
+
   "tooltip.firstsword_core.core.howto": "Hold in your main hand with the First Sword in the offhand, then right-click",
 
   "message.firstsword_core.need_sword": "Hold the First Sword in your other hand",
   "message.firstsword_core.applied": "Core applied: %s",
   "message.firstsword_core.already": "This sword already has that core",
   "message.firstsword_core.drop.sin": "Sin condenses - obtained \"Sin\"",
-  "message.firstsword_core.drop.convergence": "The First Sword condenses - obtained \"Convergence Core\""
+  "message.firstsword_core.drop.convergence": "The First Sword condenses - obtained \"Convergence Core\"",
+  "message.firstsword_core.drop.devastation": "The totem's power condenses - obtained \"Devastation Core\"",
+  "message.firstsword_core.drop.breach": "The Nether's breath pours into the blade - obtained \"Breach Core\"",
+  "message.firstsword_core.drop.echo": "The blade echoes - obtained \"Echo Core\"",
+  "message.firstsword_core.drop.sonata": "The End resounds - obtained \"Sonata Core\"",
+  "message.firstsword_core.breach.tap": "Breach Core: Resistance II + Strength II (12s), 3 blast strikes",
+  "message.firstsword_core.breach.cooldown": "Breach Core is still on cooldown",
+  "message.firstsword_core.breach.charge": "Blast strikes left: %s"
 }
